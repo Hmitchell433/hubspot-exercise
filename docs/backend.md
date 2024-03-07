@@ -50,7 +50,7 @@ Visit the API at `http://localhost:<PORT>/media` to see the list of media items 
 
 **Take a look at the designs for the application in the [designs][designs] folder**.
 
-You are required to build the backend for a web application that allows users to search for and view information about movies and books. You can find all of the data for the media items at **[this url](https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise/main/src/js/data/data.json)**
+You are required to build the backend for a web application that allows users to search for and view information about movies and books. You can find all of the data for the media items at **[this url](https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise/main/src/js/data.json)**
 
 **Note:** You don't need to build the frontend for this application, but you should design the API so that it will be easy to integrate with a frontend in the future.
 
@@ -93,7 +93,7 @@ You should ensure that your project is runnable using only these commands. You c
 
 ### Intermediate
 
-- update your `db:seed` command, so that it seeds database with the data from **[this url](https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise/main/src/js/data/data.json)**. The data is in JSON format so you'll need to parse it before inserting it into the database.
+- update your `db:seed` command, so that it seeds database with the data from **[this url](https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise/main/src/js/data.json)**. The data is in JSON format so you'll need to parse it before inserting it into the database.
 
 - Implement pagination when fetching the media items from the database. The API should allow for the following query parameters:
   - `page` - the page number to fetch

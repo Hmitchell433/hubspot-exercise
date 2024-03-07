@@ -37,7 +37,7 @@ This project uses [Parcel][parcel] by default, but you can replace that with you
 
 **Take a look at the designs for the application in the [designs][designs] folder**.
 
-You are required to build the frontend and backend for a web application that allows users to search for and view information about movies and books. You can find all of the data for the media items at **[this url](https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise/main/src/js/data/data.json)**
+You are required to build the frontend and backend for a web application that allows users to search for and view information about movies and books. You can find all of the data for the media items at **[this url](https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise/main/src/js/data.json)**
 
 We've split the requirements into three sections - **basic**, **intermediate**, and **advanced**. You should aim to complete all of the basic requirements. The intermediate and advanced requirements are optional, but we recommend you attempt some of them if you have time. Choose the ones that you think will best showcase your skills.
 
@@ -57,7 +57,7 @@ You should ensure that your project is runnable using only these commands. You c
 
 ### Basic
 
-- Create a backend API using NodeJS that fetches the JSON data from the [provided endpoint](https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise/main/src/js/data/data.json).
+- Create a backend API using NodeJS that fetches the JSON data from the [provided endpoint](https://raw.githubusercontent.com/HubSpotWebTeam/CodeExercise/main/src/js/data.json).
 
 - Add a GET endpoint to the backend API that returns all of the media items in the JSON data.
 
