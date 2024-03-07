@@ -13,12 +13,12 @@
   "author": "HubSpot Marketing Web-Team",
   "license": "ISC",
   "dependencies": {
-    "better-sqlite3": "^9.2.2",
-    "dotenv": "^16.3.1",
+    "better-sqlite3": "^9.3.0",
+    "dotenv": "^16.4.1",
     "express": "^4.18.2",
-    "parcel": "^2.10.3"
+    "parcel": "^2.11.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "nodemon": "^3.0.3"
   }
 }
