@@ -4,7 +4,7 @@
   "description": "A take-home exercise for the HubSpot Web-Team",
   "main": "index.js",
   "scripts": {
-    "start": "parcel serve src/views/index.html --open",
+    "start": "npm start --prefix frontend",
     "serve": "node backend/server.js",
     "dev": "nodemon backend/server.js",
     "test": "echo \"No test specified, maybe you should add some? :)\" && exit 1",
