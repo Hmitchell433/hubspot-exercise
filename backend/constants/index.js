@@ -1,0 +1,11 @@
+const PER_PAGE = 6;
+const PAGE_NUMBER_DEFAULT = 1;
+const DEFAULT_TYPE_FILTER = "all";
+const DEFAULT_SEARCH_KEY = "title";
+
+module.exports = {
+  PER_PAGE,
+  PAGE_NUMBER_DEFAULT,
+  DEFAULT_TYPE_FILTER,
+  DEFAULT_SEARCH_KEY,
+};
