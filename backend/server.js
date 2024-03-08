@@ -1,13 +1,20 @@
-const express = require('express');
-const app = express();
-const mediaRouter = require('./routes/media');
-const port = process.env.SERVER_PORT || 3001 ;
+const express = require("express");
+const cors = require("cors");
+const { parsed: dotenv } = require("dotenv").config();
 
-app.get('/', (_, res) => {
-  res.json({ message: 'Hello World' });
+const mediaRouter = require("./routes/media");
+
+const app = express();
+
+const port = dotenv.SERVER_PORT || 3001;
+
+app.use(cors());
+
+app.get("/", (_, res) => {
+  res.json({ message: "Hello World" });
 });
 
-app.use('/media', mediaRouter);
+app.use("/media", mediaRouter);
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
