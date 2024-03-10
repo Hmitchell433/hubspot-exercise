@@ -1,0 +1,147 @@
+.main {
+  @apply p-2 my-2 sm:my-10 sm:p-10;
+}
+
+.popover-btn {
+  @apply flex uppercase border-b border-gray-400 space-x-10 bg-filter-off-white py-2 px-3 text-filter-gray font-semibold;
+}
+
+.popover-panel {
+  @apply absolute z-10 origin-top-right bg-white shadow-lg focus:outline-none max-h-[315px] overflow-y-auto;
+}
+
+.enter-transition {
+  @apply transition ease-out duration-200;
+}
+
+.enter-from-transition {
+  @apply opacity-0 translate-y-1;
+}
+
+.enter-to-transition {
+  @apply opacity-100 translate-y-0;
+}
+
+.leave-transition {
+  @apply transition ease-in duration-150;
+}
+
+.leave-from-transition {
+  @apply opacity-100 translate-y-0;
+}
+
+.leave-to-transition {
+  @apply opacity-0 translate-y-1;
+}
+
+.dropdown {
+  @apply relative mt-3 border border-gray-300;
+}
+
+.dropdown:before {
+  @apply content-[""] absolute block left-5 bottom-[calc(100%-8px)] w-[17px] h-[17px] rotate-45 border border-solid border-t-gray-300 border-r-transparent border-b-transparent border-l-gray-300 bg-white;
+}
+
+.dropdown-item {
+  @apply py-1 border-b border-gray-300;
+}
+
+.dropdown-item-checkbox {
+  @apply border border-slate-200;
+}
+
+.dropdown-item-label {
+  @apply text-filter-gray font-semibold block px-4 py-2 text-sm uppercase;
+}
+
+.filter-container {
+  @apply border border-gray-300 p-5;
+}
+
+.filter-dropdown-search-container {
+  @apply flex flex-col space-y-3 sm:space-y-0 sm:flex-row justify-between mb-8;
+}
+
+.filter-dropdown-container {
+  @apply flex space-x-5 justify-between;
+}
+
+.filter-radio-container {
+  @apply flex justify-between flex-col sm:flex-row;
+}
+
+.filter-radio {
+  @apply flex space-x-3;
+}
+
+.radio-btn {
+  @apply w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600;
+}
+
+.radio-label {
+  @apply ms-2 text-sm font-medium text-gray-900 capitalize;
+}
+
+.clear-filter {
+  @apply uppercase text-sky-500 underline font-bold hover:cursor-pointer;
+}
+
+.card {
+  @apply flex flex-col space-y-2;
+}
+
+.card-title {
+  @apply text-xl text-gray-700 font-semibold;
+}
+
+.card-caption {
+  @apply text-gray-700 font-semibold capitalize;
+}
+
+.movie-list {
+  @apply flex w-[100%] flex-col items-center space-y-10 border border-t-0 border-gray-300 p-5;
+}
+
+.movie-card {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8;
+}
+
+.paginate-container {
+  @apply flex justify-center mt-4;
+}
+
+.paginate-page {
+  @apply px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0;
+}
+
+.paginate-previous {
+  @apply rounded-l border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50;
+}
+
+.paginate-next {
+  @apply rounded-r border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50;
+}
+
+.paginate-active {
+  @apply relative z-10 inline-flex items-center bg-gray-600 px-4 py-2 text-sm hover:bg-gray-600 font-semibold text-white focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600;
+}
+
+.paginate-break {
+  @apply px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0;
+}
+
+.radio-container {
+  @apply flex items-center mb-4;
+}
+
+.search-field {
+  @apply border border-gray-300 text-gray-900 text-sm sm:w-[220px] p-2 w-[100%];
+}
+
+.search-icon {
+  @apply absolute top-2.5 right-0 sm:top-0 sm:inset-y-0 sm:end-0 flex items-center pe-3;
+}
+
+.loader {
+  @apply flex w-[100%] justify-center mt-10;
+}
