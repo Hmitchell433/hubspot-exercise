@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# Front-End - React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that allows users to search for movies and also apply filters to them
 
-## Available Scripts
+## Functionality
 
-In the project directory, you can run:
+With the this application, you can perform the following actions:
 
-### `npm start`
+1. Search for your favorite movie or book
+2. Filter by Genre and Year
+3. Filter by book or movie
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How to Start
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### ( **Important** : React Version should be 18.2.0)
 
-### `npm test`
+To get started with the this app, please follow the instructions below:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Extract the project from zip file.
+2. Navigate to the project directory using your command prompt or terminal.
+3. Run the command `npm install` to install all necessary dependencies.
 
-### `npm run build`
+```ssh
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+or
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```ssh
+npm i
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Run the command npm start to start the server.
 
-### `npm run eject`
+```ssh
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5. Once the server is running, you can access the application by navigating to http://localhost:3000 in your web browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The tech stack used to build the React Frontend is:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. React - a JavaScript library for building user interfaces
+2. Axios - a JavaScript library for executing API request
+3. React Toastify - a library to show toaster messages
+4. TailwinCSS - a CSS library for styling elements
+5. Lucide React - a lightweight JavaScript library for icons
+6. Headless UI React - a library which contains pre-built component of Dropdown, Panels etc
+7. React Lazy Load Image - a library for lazy loading images for optimization
+8. React Paginate - a prebuilt pagination compoenent
+9. React Spinners - for showing loaders

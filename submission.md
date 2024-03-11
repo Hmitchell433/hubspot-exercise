@@ -6,16 +6,16 @@ We've provided some questions to help guide you, but feel free to include any ad
 
 ## Given more time, what would you have included or done differently?
 
-- your answer
+- I would have added indication for filters, unit testing for both FE and BE
 
 ## Did you deviate from the instructions? If so, why?
 
-- your answer
+- No, everything is according to the instructions, I added all the searching, filtering at the backend side with cancel token on frontend. This is because CPU intensive tasks should be done at the BE. Moreover, for efficient search and accurate results, the cancel token is recommended.
 
 ## What part of the exercise did you find the biggest challenge, and why?
 
-- your answer
+- Adding the triangle to dropdown on filters and adding cancel token, as I made a hook for it and changed the whole api and action logic. Moreover, the triangle was a bit difficult to adjust accordingly.
 
 ## Is there anything else you'd like to us to know?
 
-- your answer
+- It was a great experience working on this application. Looking forward to your positive response!
