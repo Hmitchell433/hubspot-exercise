@@ -10,7 +10,7 @@ We've provided some questions to help guide you, but feel free to include any ad
 
 ## Did you deviate from the instructions? If so, why?
 
-- No, everything is according to the instructions, I added all the searching, filtering at the backend side with cancel token on frontend. This is because CPU intensive tasks should be done at the BE. Moreover, for efficient search and accurate results, the cancel token is recommended.
+- No, everything is according to the instructions, I added all the searching, filtering at the backend side with cancel token on frontend. This is because CPU intensive tasks should be done at the BE. Moreover, for efficient search and accurate results, the cancel token is recommended. Also, the dropdown arrow appears accordingly in case of open and closed.
 
 ## What part of the exercise did you find the biggest challenge, and why?
 

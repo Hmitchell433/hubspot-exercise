@@ -19,4 +19,4 @@ instance.interceptors.response.use(null, (error) => {
   }
 });
 
-module.exports = { http: instance };
+module.exports = { axios: instance };

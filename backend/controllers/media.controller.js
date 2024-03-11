@@ -1,18 +1,14 @@
-const express = require("express");
-
 const { paginate } = require("../utils/paginate");
 const { applyFilters } = require("../utils/filters");
-const { http } = require("../utils/http");
+const { axios } = require("../utils/axios");
 const { PER_PAGE } = require("../constants");
 
-const router = express.Router();
-
-router.get("/", async (req, res) => {
+const getMovies = async (req, res) => {
   const { search, genre, year, type, page, per_page = PER_PAGE } = req.query;
   try {
     let {
       data: { media: movies },
-    } = await http.get();
+    } = await axios.get();
 
     movies = applyFilters(movies, {
       search,
@@ -34,13 +30,13 @@ router.get("/", async (req, res) => {
     console.error(`Error fetching media `, error.message);
     res.status(500).json({ message: error.message });
   }
-});
+};
 
-router.get("/filter-values", async (_, res) => {
+const getFilterValues = async (_, res) => {
   try {
     let {
       data: { media: movies },
-    } = await http.get();
+    } = await axios.get();
 
     const genres = movies
       .reduce((acc, movie) => {
@@ -68,6 +64,9 @@ router.get("/filter-values", async (_, res) => {
     console.error(`Error fetching filter values `, error.message);
     res.status(500).json({ message: error.message });
   }
-});
+};
 
-module.exports = router;
+module.exports = {
+  getMovies,
+  getFilterValues,
+};

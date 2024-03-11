@@ -1,6 +1,6 @@
 import { useState, useEffect, DependencyList } from "react";
 
-import { CancelToken } from "api/http";
+import { CancelToken } from "api/axios";
 import { EffectType, TokenType } from "types";
 import { CANCEL_REQUEST } from "constant";
 

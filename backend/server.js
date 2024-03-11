@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const { parsed: dotenv } = require("dotenv").config();
 
-const mediaRouter = require("./routes/media");
+const mediaRouter = require("./routes/media.routes");
 
 const app = express();
 

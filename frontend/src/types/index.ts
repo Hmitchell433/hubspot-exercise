@@ -1,6 +1,6 @@
 import { SetStateAction, Dispatch } from "react";
 
-import { CancelTokenSource } from "api/http";
+import { CancelTokenSource } from "api/axios";
 
 export type DropdownProps = {
   label: string;

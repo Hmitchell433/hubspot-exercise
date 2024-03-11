@@ -1,4 +1,4 @@
-import http from "api/http";
+import http from "api/axios";
 import { MOVIES_URL } from "constant";
 import { TokenType } from "types";
 
